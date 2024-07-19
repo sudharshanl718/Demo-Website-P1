@@ -1,0 +1,619 @@
+nav {
+  width: 100%;
+  height: 40px;
+  background-color: gray;
+}
+
+.div1 {
+  width: 35%;
+  height: 40px;
+  display: flex;
+  background-color: gray;
+  color: white;
+  align-items: center;
+}
+
+nav div p a {
+  color: white;
+  text-decoration-line: none;
+}
+
+nav div p {
+  margin-left: 20px;
+}
+
+nav div {
+  margin-left: 960px;
+}
+
+.div2 {
+  height: 90px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.search {
+  width: 250px;
+  height: 22px;
+  border-right: none;
+  border-width: 2px;
+  margin-left: 740px;
+  font-size: 16px;
+  padding: 16px;
+}
+
+.icon1 {
+  width: 20px;
+  height: 20px;
+  border: solid black;
+  border-left: none;
+  border-width: 2px;
+  padding: 6px;
+  color: gray;
+}
+
+.icon2 {
+  width: 32px;
+  height: 32px;
+  margin-left: 15px;
+}
+
+.logo1 {
+  margin-left: 150px;
+}
+
+.div3 {
+  height: 47px;
+  width: 100%;
+  background-color: rgb(215, 214, 214);
+  align-content: center;
+}
+
+ul {
+  list-style: none;
+}
+
+.ul1 {
+  list-style: none;
+  display: flex;
+  margin-left: 90px;
+}
+
+.ul1 li {
+  position: relative;
+}
+
+.ul2, .ul3, .ul4, .ul5, .ul6, .ul7, .ul8, .ul9 li:hover {
+  background-color: rgb(230, 228, 228);
+}
+
+.ul2, .ul3, .ul4, .ul5, .ul6, .ul7, .ul8, .ul9 li {
+  padding: 20px;
+  background-color: white;
+  width: 200px;
+}
+
+.ul1 div {
+  display: block;
+  position: absolute;
+}
+
+.div3 ul li {
+  margin-left: 25px;
+  font-weight: 500;
+}
+
+.div3 ul li a {
+  text-decoration-line: none;
+  color: black;
+}
+
+.ul2 {
+  display: none;
+}
+
+.ul1 li:nth-child(2):hover .ul2 {
+  display: block;
+  margin-top: 10px;
+  margin-left: -40px;
+}
+
+.ul2 li:nth-child(1):hover .ul3 {
+  display: block;
+  margin-top: -30px;
+  margin-left: 170px;
+}
+
+.ul2 li:nth-child(2):hover .ul4 {
+  display: block;
+  margin-top: -30px;
+  margin-left: 170px;
+}
+
+.ul3 {
+  display: none;
+  padding: 10px 0;
+  margin-top: 10px;
+  margin-left: 100px;
+}
+
+.ul4 {
+  display: none;
+}
+
+.ul5 {
+  display: none;
+}
+
+.ul1 li:nth-child(3):hover .ul5 {
+  display: block;
+  margin-top: 10px;
+  margin-left: -40px;
+}
+
+.ul5 li:nth-child(1):hover .ul6 {
+  display: block;
+  margin-top: -30px;
+  margin-left: 170px;
+}
+
+.ul5 li:nth-child(2):hover .ul7 {
+  display: block;
+  margin-top: -30px;
+  margin-left: 170px;
+}
+
+.ul6 {
+  display: none;
+}
+
+.ul7 {
+  display: none;
+}
+
+.ul8 {
+  display: none;
+}
+
+.ul1 li:nth-child(4):hover .ul8 {
+  display: block;
+  margin-top: 10px;
+  margin-left: -40px;
+}
+
+.ul9 {
+  display: none;
+}
+
+.ul1 li:nth-child(5):hover .ul9 {
+  display: block;
+  margin-top: 10px;
+  margin-left: -90px;
+}
+
+.mdiv1 {
+  height: 450px;
+  background: url("https://magento.softwaretestingboard.com/pub/media/wysiwyg/home/home-main.jpg") no-repeat;
+  margin-left: 125px;
+  margin-top: 20px;
+  padding-top: 50px;
+}
+
+.mdiv1-1 {
+  width: 520px;
+  height: 230px;
+  background-color: aliceblue;
+  margin-left: 720px;
+  padding-top: 20px;
+}
+
+.btn1 {
+  margin-left: 40px;
+  background-color: blue;
+  padding: 10px;
+  color: white;
+  border-radius: 2px;
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: -10px;
+  opacity: 0.7;
+}
+
+.btn1 a {
+  text-decoration-line: none;
+  color: white;
+}
+
+.p1 {
+  font-size: 22px;
+  font-weight: lighter;
+  margin-left: 40px;
+  margin-top: 10px;
+}
+
+.p2 {
+  font-size: 32px;
+  font-weight: lighter;
+  margin-left: 40px;
+  margin-top: 0px;
+}
+
+.mdiv2-1 {
+  height: 664px;
+  width: 400px;
+  background: url("https://magento.softwaretestingboard.com/pub/media/wysiwyg/home/home-pants.jpg") no-repeat;
+  margin-left: 125px;
+  margin-top: -60px;
+}
+
+.mdiv2-1 p h1 {
+  font-size: 50px;
+  margin-left: 30px;
+  padding-top: 30px;
+}
+
+.mdiv2-1 p p {
+  margin-left: 30px;
+  font-size: 24px;
+  margin-top: -30px;
+  font-weight: lighter;
+}
+
+.mdiv2-1 p a {
+  text-decoration-line: none;
+  margin-left: 30px;
+}
+
+.mdiv2-2 {
+  height: 300px;
+  width: 865px; 
+  background-color: rgb(255, 217, 0);
+  margin-left: 540px;
+  margin-top: -680px;
+}
+
+.mdiv2-2 img {
+  width: 400px;
+  margin-top: 40px;
+  margin-left: 70px;
+}
+
+.p3 {
+  font-size: 32px;
+  font-weight: lighter;
+  margin-top: -200px;
+  margin-left: 550px;
+  padding-right: 70px;
+}
+
+.p4 {
+  font-size: 22px;
+  font-weight: lighter;
+  margin-top: -10px;
+  margin-left: 550px;
+  padding-right: 60px;
+}
+
+.mdiv2-2 a {
+  text-decoration-line: none;
+  color: black;
+  margin-top: -220px;
+  margin-left: 550px;
+  padding-right: 70px;
+}
+
+.mdiv2-3 {
+  height: 348px;
+  background: url("https://magento.softwaretestingboard.com/pub/media/wysiwyg/home/home-erin.jpg") no-repeat;
+  margin-left: 540px;
+}
+
+.p5 {
+  font-size: 32px;
+  font-weight: lighter;
+  margin-top: 0px;
+  margin-left: 200px;
+  padding-top: 10px;
+}
+
+.p6 {
+  font-size: 22px;
+  font-weight: lighter;
+  margin-top: -10px;
+  margin-left: 200px;
+  padding-right: 60px;
+}
+
+.mdiv2-3 a {
+  text-decoration-line: none;
+  color: black;
+  margin-top: -220px;
+  margin-left: 200px;
+  padding-right: 70px;
+}
+
+.mdiv2-4 {
+  height: 274px;
+  width: 840px;
+  background: url("https://magento.softwaretestingboard.com/pub/media/wysiwyg/home/home-eco.jpg") no-repeat;
+  margin-left: 125px;
+  margin-top: 15px;
+}
+
+.div99 {
+  width: 580px;
+  height: 200px;
+  background-color: rgb(255, 253, 253);
+  margin-top: -250px;
+  margin-left: 325px;
+}
+
+.p7 {
+  font-size: 32px;
+  font-weight: lighter;
+  margin-top: 15px;
+  margin-left: 30px;
+  padding-top: 20px;
+}
+
+.p8 {
+  font-size: 22px;
+  font-weight: lighter;
+  margin-top: -20px;
+  margin-left: 30px;
+  padding-right: 60px;
+}
+
+.div99 a {
+  text-decoration-line: none;
+  color: black;
+  margin-top: -220px;
+  margin-left: 30px;
+  padding-right: 70px;
+}
+
+.mdiv2-5 {
+  height: 637px;
+  width: 420px;
+  background: url("https://magento.softwaretestingboard.com/pub/media/wysiwyg/home/home-performance.jpg") no-repeat;
+  margin-left: 984px;
+  margin-top: -600px;
+}
+
+.div98 {
+  width: 360px;
+  height: 240px;
+  background-color: rgb(255, 253, 253);
+  margin-top: -625px;
+  margin-left: 1010px;
+}
+
+.p9 {
+  font-size: 32px;
+  font-weight: lighter;
+  margin-top: 15px;
+  margin-left: 30px;
+  padding-top: 20px;
+}
+
+.p10 {
+  font-size: 22px;
+  font-weight: lighter;
+  margin-top: -20px;
+  margin-left: 30px;
+  padding-right: 60px;
+}
+
+.div98 a {
+  text-decoration-line: none;
+  color: black;
+  margin-top: -220px;
+  margin-left: 30px;
+  padding-right: 70px;
+}
+
+.mdiv3 {
+  margin-top: 390px;
+  text-align: center;
+  
+}
+
+.p11 {
+  font-size: 39px;
+  font-weight: lighter;
+}
+
+.p12 {
+  font-size: 20px;
+  font-weight: 380;
+  margin-top: -30px;
+}
+
+.mdiv4 {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 115px;
+  margin-top: 20px;
+}
+
+.mdiv4 div {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.mdiv4-1 {
+  border: solid 1px black;
+  padding: 10px;
+  height: 560px;
+  width: 220px;
+}
+
+.mdiv4 img {
+  width: 220px;
+}
+
+.mdiv4-2 {
+  border: solid 1px black;
+  padding: 10px;
+  height: 560px;
+  width: 220px;
+}
+
+.mdiv4-3 {
+  border: solid 1px black;
+  padding: 10px;
+  height: 560px;
+  width: 220px;
+}
+
+.mdiv4-4 {
+  border: solid 1px black;
+  padding: 10px;
+  height: 560px;
+  width: 220px;
+}
+
+.mdiv4-5 {
+  border: solid 1px black;
+  padding: 10px;
+  height: 425px;
+  width: 220px;
+}
+
+.mdiv4-6 {
+  border: solid 1px black;
+  padding: 10px;
+  height: 425px;
+  width: 220px;
+}
+
+.p13 {
+  font-weight: 500;
+}
+
+.p14 {
+  font-size: 12px;
+  display: flex;
+}
+
+.p14 h1 {
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: -5px;
+  margin-left: 5px;
+}
+
+.p15 button {
+  padding: 8px 12px;
+  margin-left: 5px;
+  margin-top: 5px;
+  opacity: 0.7;
+  font-weight: 700;
+}
+
+.p16 {
+  background-color: blue;
+  color: white;
+  font-weight: 700;
+  padding: 10px 15px;
+  border-radius: 2px;
+  opacity: 0.7;
+}
+
+#bt1 {
+  width: 35px;
+  height: 25px;
+  background-color: blue;
+  margin-left: 10px;
+}
+
+#bt2 {
+  width: 35px;
+  height: 25px;
+  background-color: rgb(255, 94, 0);
+  margin-left: 10px;
+}
+
+#bt3 {
+  width: 35px;
+  height: 25px;
+  background-color: rgb(243, 9, 243);
+  margin-left: 10px;
+}
+
+#bt4 {
+  width: 35px;
+  height: 25px;
+  background-color: rgb(243, 9, 243);
+  margin-left: 10px;
+}
+
+#bt5 {
+  width: 35px;
+  height: 25px;
+  background-color: white;
+  margin-left: 10px;
+}
+
+#bt6 {
+  width: 35px;
+  height: 25px;
+  background-color: yellow;
+  margin-left: 10px;
+}
+
+#bt7 {
+  width: 35px;
+  height: 25px;
+  background-color: gray;
+  margin-left: 10px;
+}
+
+#bt8 {
+  width: 35px;
+  height: 25px;
+  background-color: black;
+  margin-left: 10px;
+}
+
+#bt9 {
+  width: 35px;
+  height: 25px;
+  background-color: gray;
+  margin-left: 10px;
+}
+
+#bt10 {
+  width: 35px;
+  height: 25px;
+  background-color: green;
+  margin-left: 10px;
+}
+
+footer {
+  background-color: rgb(223, 220, 220);
+  margin-top: 100px;
+}
+
+footer a {
+  text-decoration-line: none;
+  color: black;
+}
+
+footer ul {
+  margin-left: 80px;
+}
+
+footer li {
+  margin-top: 7px;
+}
+
+.fdiv2 {
+  height: 40px;
+  background-color: gray;
+}
+
+.fdiv1 {
+  display: flex;
+}
